@@ -73,12 +73,11 @@ Recent **volatility** (`roll_std_4`, 29%) and **level** (`roll_mean_4`, 19%) wer
 
 ## Conclusion
 
-Even a modest classifier can drive a useful policy. The adaptive framework **cut stockouts by 18.5% and improved service level without raising total cost**, because extra holding cost was more than offset by lower stockout and ordering costs. The business case is **availability, not cost reduction**. The next step would be to target the policy at the SKU segments where it saves money.
+The adaptive framework **cut stockouts by 18.5% and improved service level without raising total cost**, because extra holding cost was more than offset by lower stockout and ordering costs. The business case is **availability, not cost reduction**. The next step would be to target the policy at the SKU segments where it saves money.
 
 ## Limitations
 
 - Single retailer, with no store or category dimension, and no promotion or event data
-- Cost parameters are illustrative (holding £0.05/unit/week, ordering £20, stockout £2/unit), because the dataset has no cost fields
 - Fixed 1-week lead time; only upward shocks are modelled
 - Classifier performance on the middle severity classes is limited
 
